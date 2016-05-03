@@ -19,6 +19,7 @@ body{
     box-sizing: border-box;
     text-align: center;
     background-color: lightblue;
+    /*background: linear-gradient(lightblue,blue);*/
 }
 
 #app{
@@ -33,6 +34,7 @@ nav {
     font: bold 20px Tahoma;
     border-bottom: 1px solid black;
     background: #b3ff66;
+
 }
 
 nav div {
@@ -55,7 +57,7 @@ img{
     height: 100px;
 }
 
-h1{
+#header h1{
     width: auto;
     height: 100%;
     line-height: 100px;
@@ -63,38 +65,74 @@ h1{
 }
 
 #list{
-    width: 30%;
-    height: 50%;
+    width: 23%;
+    height: 0%;
     display: inline-block;
     font: 20px bold Tahoma;
-    border: 1px solid grey;
-    background: #e6e6e6;
+    /*border: 1px solid grey;
+    background: #e6e6e6;*/
     float: left;
+
+
 }
 
-#current_city{
+#list li{
+    padding: 5%;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px #888888;
+    background: #FF7700;
+}
+
+/*#current_city{
     width: 50%;
-    height: 10%;
+    height: 20%;
     display: inline-block;
     border-bottom: 1px;
     float: right;
 
-}
+}*/
 
-#current_city #{
-    width: 60%;
-    height: 5%;
-    margin: 10%;
+#current_city h1{
+    width:85%;
+    height:0%;
+    margin: 0%;
     display: inline-block;
     border-bottom: 1px;
     float: right;
+    border: 1px solid red;
 
 }
 
 #current_city #clothes {
-    width: 20%;
+    width: 100%;
     height: 10%;
     display: inline-block;
+    float: right;
+    font: 22px bold Tahoma;
+
+}
+
+/*#weather_info #weather_info{
+    width: 50%;
+    height: 0%;
+    border: 20px solid black;
+}*/
+
+#weather_info #weather_icon{
+    width: 20%;
+    height: 20%;
+    float: right;
+}
+
+#conditions{
+    font: 30px bold Tahoma;
+    width: 25%;
+    text-align: center;
+    height: 30%;
+    margin: 0%;
+    padding: 5%;
+    float: right;
+    border: 5px solid black;
 
 }
 /*#current-city h1{
