@@ -1,0 +1,110 @@
+/* CSS declarations go here */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: lightblue;
+}
+
+#app{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    font: bold 20px Tahoma;
+    border-bottom: 1px solid black;
+    background: #b3ff66;
+}
+
+nav div {
+    display: inline-block;
+}
+nav #header{
+    width: 60%;
+    height: 100px;
+    text-align: center;
+}
+
+nav #logo{
+    width: 110px;
+    height: 100px;
+    float: right;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    width: auto;
+    height: 100%;
+    line-height: 100px;
+
+}
+
+#list{
+    width: 30%;
+    height: 50%;
+    display: inline-block;
+    font: 20px bold Tahoma;
+    border: 1px solid grey;
+    background: #e6e6e6;
+    float: left;
+}
+
+#current_city{
+    width: 50%;
+    height: 10%;
+    display: inline-block;
+    border-bottom: 1px;
+    float: right;
+
+}
+
+#current_city #{
+    width: 60%;
+    height: 5%;
+    margin: 10%;
+    display: inline-block;
+    border-bottom: 1px;
+    float: right;
+
+}
+
+#current_city #clothes {
+    width: 20%;
+    height: 10%;
+    display: inline-block;
+
+}
+/*#current-city h1{
+    width: 60px;
+    height: 100px;
+    display: inline-block;
+    width: 90%;
+    height: 100%;
+    border-bottom: 1px;
+    text-align: right;
+
+
+}*/
